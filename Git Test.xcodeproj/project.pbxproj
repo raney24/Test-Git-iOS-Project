@@ -14,6 +14,7 @@
 		2771D5CE1A707A8D0061F88B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2771D5CD1A707A8D0061F88B /* Images.xcassets */; };
 		2771D5D11A707A8D0061F88B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2771D5CF1A707A8D0061F88B /* LaunchScreen.xib */; };
 		2771D5DD1A707A8D0061F88B /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2771D5DC1A707A8D0061F88B /* Git_TestTests.m */; };
+		2771D5E81A707D200061F88B /* KRTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 2771D5E71A707D200061F88B /* KRTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		2771D5D61A707A8D0061F88B /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2771D5DB1A707A8D0061F88B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2771D5DC1A707A8D0061F88B /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		2771D5E61A707D200061F88B /* KRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KRTest.h; sourceTree = "<group>"; };
+		2771D5E71A707D200061F88B /* KRTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KRTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		2771D5B41A707A8D0061F88B = {
 			isa = PBXGroup;
 			children = (
+				2771D5E61A707D200061F88B /* KRTest.h */,
+				2771D5E71A707D200061F88B /* KRTest.m */,
 				2771D5BF1A707A8D0061F88B /* Git Test */,
 				2771D5D91A707A8D0061F88B /* Git TestTests */,
 				2771D5BE1A707A8D0061F88B /* Products */,
@@ -219,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2771D5E81A707D200061F88B /* KRTest.m in Sources */,
 				2771D5C91A707A8D0061F88B /* ViewController.m in Sources */,
 				2771D5C61A707A8D0061F88B /* AppDelegate.m in Sources */,
 				2771D5C31A707A8D0061F88B /* main.m in Sources */,
